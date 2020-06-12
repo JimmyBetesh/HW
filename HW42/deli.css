@@ -1,5 +1,10 @@
+body{
+    background-color:rgb(173, 212, 181)
+}html{
+    background-color: cornflowerblue;
+}
 h1, h3, p {
-    color:red
+    color:rgb(241, 14, 14)
 
 }
 p {
@@ -7,7 +12,4 @@ p {
 }
 h4 p{
     text-align: right;
-}
-body{
-    background-color:burlywood
 }

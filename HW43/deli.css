@@ -1,0 +1,96 @@
+html{
+    background-color: gold;
+}body{
+    background-color:#000077;
+    max-width: 1200px;
+    /* width: 85%; */
+    margin: auto;
+    color: pink;
+    padding: 1px 2em;
+}
+h1, h3, p {
+    color:#f00000;
+}
+p {
+    border: 5px solid black;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 900;    
+}
+h4 p{
+    text-align: right;
+    color: #f6260f;    
+}
+header p, h1, h2{
+    color: rgba(246, 38, 15, 1);
+    border-top: 10px dashed rebeccapurple;
+    border-radius: 20px;
+    text-align: center;
+    border-right:10px solid ;
+    border-left: 14px dotted orange;
+    border-bottom:13px dotted rgb(235, 41, 19);
+    text-transform: uppercase;    
+}
+header a{
+    text-transform: lowercase;
+}
+div img{
+    width: 400px;
+    height: 300px;
+    border: 10px solid red;
+    border-radius: 20px;
+    padding-right: 0px;
+    box-sizing: border-box;
+}
+#pageTitle {
+    font-size: 3rem;
+    font-style: oblique;
+    color: goldenrod;
+    border: solid blue 1rem;
+    background: black;
+    text-transform: lowercase;
+    box-sizing: border-box;
+    
+}
+
+header h2, div{
+    border-color:rgb(173, 212, 181);
+    text-align: center;
+    
+}
+
+img{
+    width: 300px;
+    height: 200px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link{/*unvisited. specific to anchors */
+    color: rgb(207, 200, 200);
+}
+a:visited {/*specific*/
+    color:grey;
+}
+a:hover{/*example of a pseudo-class. Also- "hover" is not specific to anchor */
+    text-decoration: underline;
+}
+a:focus {/*not specific*/
+    color:yellow;
+}
+a:active {
+    color: rosybrown;
+    font-size: 2em;
+}
+.menuItem{
+    border:10px dashed greenyellow;
+    border-radius: 10px;
+    font-size: 1.25em;    
+}
+.menuItem a{
+    font-size: 1.35em;
+    color: gold; 
+}
