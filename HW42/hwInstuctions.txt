@@ -1,0 +1,68 @@
+Files from last nights class have been uploaded to Dropbox and pushed to GitHub. (see git directions doc sent out last night for details on how to get the class files from Git - they are also on dropbox in the files folder)
+
+For homework:
+Make sure you have git installed and are able to commit and push your homeworks to Github as discussed in class night and documented in git directions doc sent out. Please remember to send me a link to your Github repo so I can clone it and get your homeworks.
+Create the beginnings of a simple website for a fictional restaurant similar to the one we were using in class, but use your own imagination to design and style it. You will be expanding on this site in future homeworks.
+Have a home page where you give some general information about the restaurant also include some appropriate pictures. 
+From the home page have links to an "Our Menu" page (and any other pages you feel like writing)
+On the "Our Menu" page have a few menu items where each item is described with text and has an image of the item as well.
+For at least one or two of the menu items have a link to yet another page that goes into greater detail about the item.
+On all pages have a link to take the user back to the home page. Make sure title is set appropriately for each page (title element in head) as well.
+Add some css - we haven't seen much yet but we did see the following:
+color - there are many ways to choose a color, so far we have just used color names e.g. red. For a list of color names you can use google html color names e.g.  https://htmlcolorcodes.com/color-names/ we will see other ways of using colors which allow you to pick pretty much any conceivable color you want, not just a few from a list
+background-color - same colors as color
+font-size - px, %, em, rem
+text-align - left, center, right, justify
+a simple new one we didnt see yet - font-style - normal, italic, oblique (dont ask me the difference between italic and oblique I have never see anyone use oblique)
+Commit your changes locally, and push to Github!
+We will continue to learn new elements and more ways to style them over the next several classes but meanwhile use the ones we have so far. You will be able to make it look nicer in future homeworks when we have more tools available.
+
+Shloime Lubowsky
+
+
+Jim B
+Wed, May 20, 12:07 AM (4 days ago)
+I hope this is the right link to my github.I have HW41 up there. I'm still working on HW42. https://github.com/JimmyBetesh/HW
+
+Shloime Lubowsky
+Thu, May 21, 9:48 AM (3 days ago)
+to Akiva, Batsheva, Chaim, Dov, Dovi, Dovi, Eliezer, Eliyhu, Feivi, Mimi, Naftali, Nechie, Pinchus, Raphael, Reuvain, Shira, Yaakov, Yaakov, Yaakov, Yitzchok, Yoel, tzvi, Getzel, Faige, me
+
+Files from last nights class have been uploaded to Dropbox and pushed to GitHub. 
+
+For homework please do the following:
+Style your restaurant pages as you see fit. (Don't simply copy styles I may have used in class, use your own imagination, you wont be graded on artistic talents). Use a site wide style sheet to ensure that all pages have the same basic look and feel. Some pages of course can have their own unique styles as well. 
+
+Use all 3 types of selectors we have seen so far:
+type selectors - e.g. h1, p
+id selectors - e.g. #logo
+class selectors - e.g. .menuItem  
+Recall also that multiple selectors can be combined for one rule by using a comma between - e.g. header, p {} will apply to both header and p elements and we can also make a selector more specific by combining selectors without the comma, e.g. header p {} will apply only to p that are in a header element. Use some of these rather then all just simple 1 part selectors.
+ 
+From the list of css rules shown below (which should be all the ones we saw in class so far) be sure to use at least 15 different rules.
+color
+background-color
+border
+border-radius
+font-size
+font-style
+font-weight
+text-align
+text-decoration
+text-shadow
+letter-spacing
+line-height
+text-transform (capitalize, uppercase etc)
+transform (translate, rotate, scale, skew)
+padding
+margin
+box-sizing
+width
+height
+float
+overflow
+opacity
+In addition:
+Make your pages not full width on a big screen - yet responsive so as to not cause scrolling on a small screen (e.g. max-width or width using %) as we did in class
+style the <a> elements  (recall that besides basic styles on an a element you can also target the pseudo class selectors a:link, a:visited, a:hover, a:focus, and a:active)
+Shloime Lubowsky

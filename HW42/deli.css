@@ -1,0 +1,13 @@
+h1, h3, p {
+    color:red
+
+}
+p {
+    font-size: 2em;
+}
+h4 p{
+    text-align: right;
+}
+body{
+    background-color:burlywood
+}
