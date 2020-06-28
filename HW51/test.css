@@ -1,0 +1,48 @@
+body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+      
+    }
+
+    .fixed-header,
+    .fixed-footer {
+        width: 100%;
+        position: fixed;
+        background: #333;
+        padding: 10px 0;
+        color: #fff;
+        z-index: 1;
+    }
+
+    .fixed-header {
+        top: 0;
+    }
+
+    .fixed-footer {
+        bottom: 0;
+    }
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 7px 25px;
+        display: inline-block;
+    }
+    a:hover{
+        color: red;
+        text-decoration: underline;
+    }
+
+    .container p {
+        
+    }
+    .jumbotron{
+        text-transform: uppercase;
+    }
+    .col-sm-4{
+       margin: auto; 
+    }
