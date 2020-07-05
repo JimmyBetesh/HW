@@ -31,6 +31,9 @@ header p, h1, h2{
     border-bottom:13px dotted rgb(235, 41, 19);
     text-transform: uppercase;    
 }
+header p{
+    height: auto;
+}
 header a{
     text-transform: lowercase;
 }
