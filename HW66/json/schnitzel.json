@@ -1,0 +1,12 @@
+{
+    "Name": "Schnitzel",
+    "Ingredients": [
+        "Chicken cutlets",
+        "Eggs",
+        "Flour",
+        "Cornflakes",
+        "Oil",
+        "Salt"
+    ],
+    "Image": "Images\\Schnitzel.jpg"
+}

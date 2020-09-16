@@ -24,6 +24,7 @@ function ourEvery(theArray, callback) {
 // return result;
 }
 
+
     
 
 const answer1 = ourEvery(letters1, isUpper);

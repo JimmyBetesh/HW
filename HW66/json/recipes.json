@@ -1,0 +1,10 @@
+[
+    {
+        "Name": "French Fries",
+        "URL": "json\\frenchFries.json"
+    },
+    {
+        "Name": "Schnitzel",
+        "URL": "json\\schnitzel.json"
+    }
+]
